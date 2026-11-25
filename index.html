@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIBRANCE 2026 | College Fest</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #100d22;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 8%;
+  background: #19142f;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffb84d;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 110px 20px;
+  background: linear-gradient(135deg, #482080, #d43c79, #f58b45);
+}
+
+.hero h1 {
+  font-size: 65px;
+  letter-spacing: 4px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 30px;
+  background: #ffbd59;
+  color: #21152d;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+section {
+  padding: 65px 9%;
+  text-align: center;
+}
+
+h2 {
+  color: #ffbd59;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.about p {
+  max-width: 750px;
+  margin: auto;
+  line-height: 1.8;
+  color: #ddd;
+}
+
+.events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 20px;
+}
+
+.event {
+  background: #211b3d;
+  padding: 30px 15px;
+  border-radius: 15px;
+  border: 1px solid #49366c;
+}
+
+.event h3 {
+  color: #ffbd59;
+  margin-bottom: 12px;
+}
+
+.event p {
+  color: #ddd;
+  line-height: 1.5;
+}
+
+.schedule {
+  background: #211b3d;
+  border-radius: 15px;
+  padding: 30px;
+  line-height: 2.2;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #19142f;
+  color: #ccc;
+}
+
+@media(max-width:600px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+  nav a {
+    margin: 5px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">VIBRANCE 2026</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#schedule">Schedule</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>VIBRANCE 2026</h1>
+  <p>Unleash Your Inner Spark.</p>
+  <p>18–19 December | Jaipur</p>
+  <a href="#events" class="btn">Explore The Fest</a>
+</div>
+
+<section class="about" id="about">
+  <h2>About The Festival</h2>
+  <p>
+    VIBRANCE 2026 is a two-day college cultural festival
+    celebrating creativity, talent, music and innovation.
+    Join us for exciting performances, competitions and
+    unforgettable experiences.
+  </p>
+</section>
+
+<section id="events">
+  <h2>Our Events</h2>
+  <div class="events">
+    <div class="event">
+      <h3>Dance Battle</h3>
+      <p>Showcase your moves and energy.</p>
+    </div>
+    <div class="event">
+      <h3>Battle of Bands</h3>
+      <p>Celebrate music and live performances.</p>
+    </div>
+    <div class="event">
+      <h3>Fashion Show</h3>
+      <p>Walk the stage with confidence.</p>
+    </div>
+    <div class="event">
+      <h3>Art Arena</h3>
+      <p>Express your creativity through art.</p>
+    </div>
+    <div class="event">
+      <h3>Photography</h3>
+      <p>Capture moments through your lens.</p>
+    </div>
+  </div>
+</section>
+
+<section id="schedule">
+  <h2>Festival Schedule</h2>
+  <div class="schedule">
+    <h3>Day 1 – 18 December</h3>
+    <p>10:00 AM – Opening Ceremony</p>
+    <p>12:00 PM – Dance Competition</p>
+    <p>3:00 PM – Fashion Show</p>
+    <br>
+    <h3>Day 2 – 19 December</h3>
+    <p>10:00 AM – Art and Photography</p>
+    <p>1:00 PM – Battle of Bands</p>
+    <p>5:00 PM – Closing Ceremony</p>
+  </div>
+</section>
+
+<footer>
+  <p>VIBRANCE 2026 | College Cultural Festival</p>
+  <p>Organised by the College Cultural Committee</p>
+</footer>
+
+</body>
+</html>
